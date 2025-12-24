@@ -1,0 +1,11 @@
+# 这是一个占位说明文件。如果你在本地运行 create_word_table.py，
+# 脚本会生成真实的水质表.docx 以及对应的水质表.docx.b64（包含真实的 base64 字符串）。
+# 若你已经生成了 base64 内容并想要恢复为 .docx，请把 base64 内容替换到本文件，
+# 然后在本地运行：
+#   # Linux/macOS
+#   echo "<BASE64_CONTENT>" | base64 --decode > 水质���.docx
+#   # Windows PowerShell
+#   [System.Convert]::FromBase64String("<BASE64_CONTENT>") | Set-Content -Encoding Byte -Path .\水质表.docx
+#
+# 说明：我现在已将初始化仓库，你可以在本地运行脚本 create_word_table.py 来生成真实的二进制 .docx，
+# 或者如果你希望，我也可以把真实的 base64 字符串粘在这里（但前提是我能在环境中生成该文件）。
